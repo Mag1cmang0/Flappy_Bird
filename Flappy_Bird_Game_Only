@@ -15,10 +15,10 @@ WIN_HEIGHT = 800
 
 # Next, we load our images in. pygame.transform.scale2x is used to double the size of our images. Also, we load the bird images as a list,
 # because we want to animate the bird flapping, while the other objects will not have animations other than moving across the screen
-BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(os.path.join("Flappy_Bird", "imgs", "bird1.png"))),pygame.transform.scale2x(pygame.image.load(os.path.join("Flappy_Bird", "imgs", "bird2.png"))),pygame.transform.scale2x(pygame.image.load(os.path.join("Flappy_Bird", "imgs", "bird3.png")))]
-PIPE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("Flappy_Bird", "imgs", "pipe.png")))
-BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("Flappy_Bird", "imgs", "base.png")))
-BKG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("Flappy_Bird", "imgs", "bg.png")))
+BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird1.png"))),pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird2.png"))),pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird3.png")))]
+PIPE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "pipe.png")))
+BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "base.png")))
+BKG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bg.png")))
 
 # We also create a font size and font choice for our score
 STAT_FONT = pygame.font.SysFont("msreferencesansserif", 35)
